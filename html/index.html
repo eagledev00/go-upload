@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>go-upload</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div id="filebox">
+		<form method="post" enctype="multipart/form-data" id="uploadForm" name="uploadForm">
+			<input type="hidden" name="noredirect" id="noredirect" value="true" />
+			<div class="key">
+				<label for="phone">Enter password:</label>
+				<input type="text" name="key" id="key" placeholder="Enter password...">
+			</div>
+			<div class="filefield">
+				<label for="file" id="fileLabel" class="custom-file-upload">Browse for a file...</label>
+				<input type="file" name="file" id="file">
+			</div>
+			<input type="submit" value="Upload" id="btnUpload" name="submit">
+			<progress id="progress" value="0" max="100"></progress>
+			<div id="statusDiv">Ready.</div>
+		</form>
+	</div>
+
+	<script src="scripts.js" defer></script>
+
+</body>
+</html>

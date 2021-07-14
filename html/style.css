@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, input {
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+a, a:visited {
+    color: cyan;
+}
+
+#filebox {
+    background-color: #333;
+    padding: 20px;
+}
+
+#filebox input {
+    width: 100%;
+    padding: 8px;
+    color: black;
+    background-color: #ddd;
+    border: 2px solid #000;
+}
+
+#progress {
+    width: 100%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.filefield {
+    margin: 1px;
+}
