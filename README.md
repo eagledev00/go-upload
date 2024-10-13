@@ -5,8 +5,7 @@ Simple go app for file uploads.
 This has a rudimentary web UI if needed and turned on with `ENABLE_WEBFORM` environment variable
 and it can serve the files from uploaded directory.
 
-However, I mostly use it from [ShareX](https://github.com/ShareX/ShareX) with a custom uploader,
-and use nginx to proxy the public url into storage path
+However, I mostly use nginx to proxy the public url into storage path
 
 ## Docker images
 
